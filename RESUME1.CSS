@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    color: #fff; /* Dark Crimson Red */
+    line-height: 1.6;
+  }
+  .navbar {
+	background-color: #f8f9fa; /* Light grey background */
+  }
+  
+  .navbar-brand {
+	color: #000; /* Black text color */
+	font-weight: bold; /* Bold text */
+	font-size: 24px; /* Font size */
+	text-transform: uppercase; /* Uppercase text */
+  }
+  
+  /* Hover effect for navbar links */
+  .navbar-brand:hover {
+	color: #007bff; /* Blue text color on hover */
+  }
+  
+  .resume {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px; /* Increased padding for better spacing */
+    background-color: #f95858; /* White background */
+    box-shadow: #fff;
+    border-radius: 15px; /* Slightly increased border radius */
+    overflow: hidden;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 100px; /* Adjust image size as needed */
+  }
+  
+  .profile-info h1 {
+    font-size: 2rem;
+    color: #e5d4ca; /* Dark Crimson Red */
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    color: #e5d4ca; /* Saddle Brown */
+  }
+  
+  section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #e5d4ca; /* Dark Crimson Red */
+  }
+  
+  .about p,
+  .education p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #e5d4ca; /* Saddle Brown */
+  }
+  .edu_item {
+	margin-top: 2rem;
+}
+  
+  .downloadBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9c0022; /* Dark Crimson Red */
+    color: #e5d4ca; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .downloadBtn:hover {
+    background-color: #760019; /* Slightly darker Dark Red on hover */
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #e5d4ca; /* Saddle Brown */
+  }
+  
+  .certification,
+  .awards-item {
+    margin-bottom: 20px;
+  }
+  
+  .edu-item,
+  .achievements-item {
+    margin-bottom: 20px;
+  }
+  
+  .achievements-item p {
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact,
+  .social {
+    flex: 1;
+  }
+  
+  .social a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #8b0000; /* Dark Crimson Red */
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+  }
+  
+  .social i {
+    margin-right: 10px;
+  }
+  
+  .social a:hover {
+    color: #a30000; /* Slightly lighter Dark Red */
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .resume {
+      padding: 10px;
+    }
+  }
+  
+  .container {
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    padding: 3rem; /* Decreased padding for better alignment */
+    background:black; /* Dark Crimson Red */
+    color: #fff; /* White text */
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem; /* Decreased gap for better spacing */
+  }
